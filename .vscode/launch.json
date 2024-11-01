@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "XKH-Server-200",
+            "request": "launch",
+            "type": "al",               
+            "environmentType": "OnPrem",
+            "server": "http://xtr-support:200",
+            "serverInstance": "BCP-200-C02",
+            "authentication": "UserPassword",
+            "startupObjectId": 9307,
+            "startupObjectType": "Page",
+            "port": 2049,
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "schemaUpdateMode": "ForceSync"            
+        }
+    ]
+}
